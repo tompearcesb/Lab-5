@@ -1,0 +1,6 @@
+print('Insert number')
+znak = input()
+try:
+    znak = int(znak)
+except:
+    print('Invalid characters')
